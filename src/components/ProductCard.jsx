@@ -9,6 +9,7 @@ import { fCurrency } from "../utils";
 
 function ProductCard({ product }) {
   const navigate = useNavigate();
+
   return (
     <Card onClick={() => navigate(`/product/${product.id}`)}>
       <CardActionArea>

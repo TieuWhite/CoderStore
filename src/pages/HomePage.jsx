@@ -40,6 +40,7 @@ function HomePage() {
         console.log(error);
         setError(error.message);
       }
+
       setLoading(false);
     };
     getProducts();
